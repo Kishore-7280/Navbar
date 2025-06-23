@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Your CSS file or embedded styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="t-center">Welcome Back</h2>
+
+        <form>
+            <div class="inputDiv username">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your username">
+            </div>
+
+            <div class="inputDiv userArea">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+                <a href="#"><span class="forgotPassword">Forgot Password?</span></a>
+            </div>
+
+            <button class="btn">Login</button>
+        </form>
+
+        <div class="formBottom">
+            <p>Or continue with</p>
+            <ul class="flexUl">
+                <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            </ul>
+
+            <p>Don't have an account? <span id="signUp">Sign up</span></p>
+        </div>
+    </div>
+</body>
+</html>
